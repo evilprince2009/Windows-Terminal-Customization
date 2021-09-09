@@ -92,6 +92,7 @@
       }
     ]
   },
+  // Custom color schemes
   "schemes": [
     {
       "background": "#011627",
