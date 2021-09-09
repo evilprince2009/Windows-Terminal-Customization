@@ -22,6 +22,10 @@ Now, let's start customizing the terminal. First things first , let's go through
 
 ## How to's
 
+### Install Windows Terminal
+
+Definitely if you haven't installed Windows Terminal yet, install it from Microsoft Store. Thats the first thing you need to do.
+
 ### Install Cascadia Code font
 
 Download the [Cascadia Code](https://github.com/microsoft/cascadia-code/releases/tag/v2106.17) font latest version and install it on your computer. This should be very straight forward. Using other fonts might create gibberish on the terminal and break the design.
