@@ -35,3 +35,7 @@ Download the [Cascadia Code](https://github.com/microsoft/cascadia-code/releases
 ### Install Git
 
 Download the [Git for Windows](https://gitforwindows.org/downloads) and install and configure it on your system properly. You can check out this [video](https://www.youtube.com/watch?v=8JJ101D3knE&t=762s) to see how to install and configure Git properly on Windows.
+
+### Install Posh Winfetch
+
+Head over to [Posh Winfetch](https://github.com/evilprince2009/Posh-Winfetch-remake/) repo and go through the README , and follow the instructions to install it properly on your system.
