@@ -16,7 +16,7 @@ Now, let's start customizing the terminal. First things first , let's go through
 ### Prerequisites
 
 - [Windows Terminal](https://www.microsoft.com/en-us/windows/terminal/)
--
+- [Cascadia Code](https://github.com/microsoft/cascadia-code/releases/tag/v2106.17)
 - [Git](https://git-scm.com/downloads)
 - [Posh Winfetch](https://github.com/evilprince2009/Posh-Winfetch-remake/)
 
@@ -24,7 +24,7 @@ Now, let's start customizing the terminal. First things first , let's go through
 
 ### Install Cascadia Code font
 
-Download the [Cascadia Code](https://github.com/microsoft/cascadia-code/releases/tag/v2106.17) font latest version and install it on your computer. This should be very straight forward.
+Download the [Cascadia Code](https://github.com/microsoft/cascadia-code/releases/tag/v2106.17) font latest version and install it on your computer. This should be very straight forward. Using other fonts might create gibberish on the terminal and break the design.
 
 ### Install Git
 
