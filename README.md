@@ -39,3 +39,9 @@ Download the [Git for Windows](https://gitforwindows.org/downloads) and install 
 ### Install Posh Winfetch
 
 Head over to [Posh Winfetch](https://github.com/evilprince2009/Posh-Winfetch-remake/) repo and go through the README , and follow the instructions to install it properly on your system.
+
+### Write your custom settings
+
+- Hit `Windows+R` to open the run command.
+- Paste `%USERPROFILE%\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState` and hit enter. This will bring up a file explorer.
+- Now download the `settings.json` from here and paste it in the file explorer.
