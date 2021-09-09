@@ -44,7 +44,7 @@ Head over to [Posh Winfetch](https://github.com/evilprince2009/Posh-Winfetch-rem
 
 - Hit `Windows+R` to open the run command.
 - Paste `%USERPROFILE%\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState` and hit enter. This will bring up a file explorer.
-- Now download the `settings.json` from _[here](https://github.com/evilprince2009/Windows-Terminal-Customization/blob/main/settings.json)_ and paste it in the file explorer.
+- Now download the `settings.json` file from _[here](https://github.com/evilprince2009/Windows-Terminal-Customization/blob/main/settings.json)_ and paste it in the file explorer.
 
 ### Now it's showtime
 
