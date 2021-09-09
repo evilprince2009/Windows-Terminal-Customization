@@ -40,6 +40,10 @@ Download the [Git for Windows](https://gitforwindows.org/downloads) and install 
 
 Head over to [Posh Winfetch](https://github.com/evilprince2009/Posh-Winfetch-remake/) repo and go through the README , and follow the instructions to install it properly on your system.
 
+### Workspace directory
+
+Make a folder named `Workspace` in your `D:\` Drive.
+
 ### Write your custom settings
 
 - Hit `Windows+R` to open the run command.
