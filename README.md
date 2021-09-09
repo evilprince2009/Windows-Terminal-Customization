@@ -1,6 +1,6 @@
 ## Windows Teminal Customization
 
-_### These tweaks / custimizations techniques are Windows Only._
+### These tweaks / custimizations techniques are Windows Only.
 
 Very often I'm asked how I customized my Windows Terminal. This repo will walk you through step-by-step how to make your terminal look like the one I use.
 Fisrt of all, let's have look at my Windows Terminal.
