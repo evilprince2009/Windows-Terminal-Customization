@@ -17,7 +17,7 @@ Now, let's start customizing the terminal. First things first , let's go through
 
 ### Prerequisites
 
-- [Windows Terminal](https://www.microsoft.com/en-us/windows/terminal/)
+- [Windows Terminal](https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701#activetab=pivot:overviewtab)
 - [Cascadia Code](https://github.com/microsoft/cascadia-code/releases/tag/v2106.17)
 - [Git](https://git-scm.com/downloads)
 - [Posh Winfetch](https://github.com/evilprince2009/Posh-Winfetch-remake/)
