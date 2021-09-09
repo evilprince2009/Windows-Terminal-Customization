@@ -62,6 +62,7 @@
     "list": [
       {
         "acrylicOpacity": 0.0,
+        // Change this to use your favorite background image
         "backgroundImage": "desktopWallpaper",
         "backgroundImageOpacity": 0.070000000000000007,
         "backgroundImageStretchMode": "fill",
@@ -74,6 +75,7 @@
         "tabTitle": "Windows PowerShell"
       },
       {
+        // Change this to use your favorite background image
         "backgroundImage": "D:\\Terminal Backgrounds\\powershell-bg.jpg",
         "commandline": "cmd.exe",
         "experimental.retroTerminalEffect": true,
