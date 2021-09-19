@@ -19,6 +19,7 @@ Now, let's start customizing the terminal. First things first , let's go through
 
 - [Windows Terminal](https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701#activetab=pivot:overviewtab)
 - [Cascadia Code](https://github.com/microsoft/cascadia-code/releases/tag/v2106.17)
+- Dependencies
 - [Git](https://git-scm.com/downloads)
 - [DotFetch](https://github.com/evilprince2009/DotFetch)
 
@@ -31,6 +32,10 @@ Definitely if you haven't installed Windows Terminal yet, install it from Micros
 ### Install Cascadia Code
 
 Download the [Cascadia Code](https://github.com/microsoft/cascadia-code/releases/tag/v2106.17) font latest version and install it on your computer. This should be very straight forward. Using other fonts might create gibberish on the terminal and break the design.
+
+### Install Dependencies
+
+If you want to have colorful themes in your terminal, you need to install some dependencies. Install `posh-git` from _[here](https://www.powershellgallery.com/packages/posh-git/)_ and `oh-my-posh` from _[here](https://www.powershellgallery.com/packages/oh-my-posh/)_. You are allowed to use any version of these dependencies. But using the latest version is a recommended.
 
 ### Install Git
 
