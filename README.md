@@ -53,9 +53,10 @@ Make a folder named `Workspace` in your `D:\` Drive.
 ### Customize themes and color scheme even more
 
 - To see the list of available themes , run `Get-PoshThemes` on terminal.
+- To customize color scheme of your favourite theme , navigate to `C:\Program Files\WindowsPowerShell\Modules\oh-my-posh\themes` , open the theme file you want to customize in your preferred code editor and modify the color scheme. Make sure to save the changes you made.
 
 ### Now it's showtime
 
-Restart your Windows Terminal and you should be good to go.
+One you are done , re-launch your Windows Terminal and you should be good to go.
 
 ### [Ibne Nahian](www.facebook.com/evilprince2009)
