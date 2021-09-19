@@ -1,6 +1,6 @@
 ## Windows Teminal Customization
 
-### These tweaks / custimizations techniques are Windows Only.
+### These tweaks / custimizations techniques are Windows Only
 
 Very often I'm asked how I customized my Windows Terminal. This repo will walk you through step-by-step how to make your terminal look like the one I use.
 Fisrt of all, let's have look at my Windows Terminal.
@@ -20,7 +20,7 @@ Now, let's start customizing the terminal. First things first , let's go through
 - [Windows Terminal](https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701#activetab=pivot:overviewtab)
 - [Cascadia Code](https://github.com/microsoft/cascadia-code/releases/tag/v2106.17)
 - [Git](https://git-scm.com/downloads)
-- [Posh Winfetch](https://github.com/evilprince2009/Posh-Winfetch-remake/)
+- [DotFetch](https://github.com/evilprince2009/DotFetch)
 
 ## How to's
 
@@ -36,9 +36,9 @@ Download the [Cascadia Code](https://github.com/microsoft/cascadia-code/releases
 
 Download the [Git for Windows](https://gitforwindows.org/downloads) and install and configure it on your system properly. You can check out this [video](https://www.youtube.com/watch?v=8JJ101D3knE&t=762s) to see how to install and configure Git properly on Windows.
 
-### Install Posh Winfetch
+### Install DotFetch
 
-Head over to [Posh Winfetch](https://github.com/evilprince2009/Posh-Winfetch-remake/) repo and go through the README , and follow the instructions to install it properly on your system.
+Head over to [DotFetch](https://github.com/evilprince2009/DotFetch) repo and go through the README , and follow the instructions to install it properly on your system.
 
 ### Workspace directory
 
@@ -49,6 +49,10 @@ Make a folder named `Workspace` in your `D:\` Drive.
 - Hit `Windows+R` to open the run command.
 - Paste `%USERPROFILE%\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState` and hit enter. This will bring up a file explorer.
 - Now download the `settings.json` file from _[here](https://github.com/evilprince2009/Windows-Terminal-Customization/blob/main/settings.json)_ and paste it in the file explorer.
+
+### Customize themes and color scheme even more
+
+- To see the list of available themes , run `Get-PoshThemes` on terminal.
 
 ### Now it's showtime
 
