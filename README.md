@@ -45,6 +45,18 @@ Download the [Git for Windows](https://gitforwindows.org/downloads) and install 
 
 Head over to [DotFetch](https://github.com/evilprince2009/DotFetch) repo and go through the README , and follow the instructions to install it properly on your system.
 
+### Update PowerShell profile
+
+Open PowerShell & type `notepad $profile` and hit Enter. This will open a text file in Notepad. Put below lines inside the file and save.
+
+```
+Import-Module posh-git
+Import-Module oh-my-posh
+Set-PoshPrompt -Theme Iterm2
+Write-Host("                        =========> Wellcome || Windows PowerShell <=========")
+dotfetch
+```
+
 ### Workspace directory
 
 Make a folder named `Workspace` in your `D:\` Drive.
