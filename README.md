@@ -72,6 +72,10 @@ dotfetch
 - To see the list of available themes , run `Get-PoshThemes` on terminal.
 - To customize color scheme of your favourite theme , navigate to `C:\Program Files\WindowsPowerShell\Modules\oh-my-posh\themes` , open the theme file you want to customize in your preferred code editor and modify the color scheme. Make sure to save the changes you made.
 
+### Tip:
+
+Those who wants to customize the default color scheme of posh themes , might be interested to have look at how it is done. I've done one & here it is. Check out the
+
 ### Now it's showtime
 
 Once you are done , re-launch your Windows Terminal and you should be good to go.
