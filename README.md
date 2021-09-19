@@ -74,7 +74,7 @@ dotfetch
 
 ### Tip:
 
-Those who wants to customize the default color scheme of posh themes , might be interested to have look at how it is done. I've done one & here it is. Check out the
+Those who wants to customize the default color scheme of posh themes , might be interested to have look at how it is done. I've done one & here it is. Check out the modified `iterm2.omp.json` file _**[here](https://github.com/evilprince2009/Windows-Terminal-Customization/blob/main/iterm2.omp.json)**_.
 
 ### Now it's showtime
 
