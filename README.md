@@ -57,6 +57,6 @@ Make a folder named `Workspace` in your `D:\` Drive.
 
 ### Now it's showtime
 
-One you are done , re-launch your Windows Terminal and you should be good to go.
+Once you are done , re-launch your Windows Terminal and you should be good to go.
 
 ### [Ibne Nahian](www.facebook.com/evilprince2009)
