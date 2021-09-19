@@ -11,7 +11,7 @@ Fisrt of all, let's have look at my Windows Terminal.
 
 ### Resized View
 
-![terminal](<https://github.com/evilprince2009/Windows-Terminal-Customization/blob/main/Screenshot%20(54).png>)
+![terminal](<https://github.com/evilprince2009/Windows-Terminal-Customization/blob/main/images/Screenshot%20(57).png>)
 
 Now, let's start customizing the terminal. First things first , let's go through the prerequisites.
 
