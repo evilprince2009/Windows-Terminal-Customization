@@ -41,6 +41,10 @@ If you want to have colorful themes in your terminal, you need to install some d
 
 Download the [Git for Windows](https://gitforwindows.org/downloads) and install and configure it on your system properly. You can check out this [video](https://www.youtube.com/watch?v=8JJ101D3knE&t=762s) to see how to install and configure Git properly on Windows.
 
+### Workspace directory
+
+Make a folder named `Workspace` in your `D:\` Drive.
+
 ### Install DotFetch
 
 Head over to [DotFetch](https://github.com/evilprince2009/DotFetch) repo and go through the README , and follow the instructions to install it properly on your system.
@@ -56,10 +60,6 @@ Set-PoshPrompt -Theme Iterm2
 Write-Host("                        =========> Wellcome || Windows PowerShell <=========")
 dotfetch
 ```
-
-### Workspace directory
-
-Make a folder named `Workspace` in your `D:\` Drive.
 
 ### Write your custom settings
 
