@@ -53,12 +53,24 @@ Head over to [DotFetch](https://github.com/evilprince2009/DotFetch) or [DotFetch
 
 Open PowerShell & type `notepad $profile` if you are using Windows PowerShell or `notepad $Profile` if you are using PowerShell Core & hit Enter. This will open a text file in Notepad. Put below lines inside the file and save.
 
+- If you are using DotFetch:
+
 ```
 Import-Module posh-git
 Import-Module oh-my-posh
 Set-PoshPrompt -Theme Iterm2
 Write-Host("                        =========> Wellcome || Windows PowerShell <=========")
 dotfetch
+```
+
+Or if you are using DotFetch.NET:
+
+```
+Import-Module posh-git
+Import-Module oh-my-posh
+Set-PoshPrompt -Theme Iterm2
+Write-Host("                        =========> Wellcome || Windows PowerShell <=========")
+DotFetch.NET
 ```
 
 ### Write your custom settings
