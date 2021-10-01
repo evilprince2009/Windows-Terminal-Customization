@@ -63,7 +63,9 @@ Write-Host("                        =========> Wellcome || Windows PowerShell <=
 dotfetch
 ```
 
-Or if you are using DotFetch.NET:
+_**OR**_
+
+- If you are using DotFetch.NET:
 
 ```
 Import-Module posh-git
