@@ -47,7 +47,7 @@ Make a folder named `Workspace` in your `D:\` Drive.
 
 ### Install DotFetch or DotFetch.NET
 
-Head over to [DotFetch](https://github.com/evilprince2009/DotFetch) or [DotFetch.NET](https://github.com/evilprince2009/DotFetch.NET) repo and go through the README , and follow the instructions to install it properly on your system. I recommend using [DotFetch](https://github.com/evilprince2009/DotFetch).
+Head over to [DotFetch](https://github.com/evilprince2009/DotFetch) or [DotFetch.NET](https://github.com/evilprince2009/DotFetch.NET) repo and go through the README , and follow the instructions to install it properly on your system. I recommend using [DotFetch](https://github.com/evilprince2009/DotFetch) for the instructions I wrote here.
 
 ### Update PowerShell profile
 
