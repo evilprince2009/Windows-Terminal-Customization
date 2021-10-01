@@ -21,7 +21,7 @@ Now, let's start customizing the terminal. First things first , let's go through
 - [Cascadia Code](https://github.com/microsoft/cascadia-code/releases/tag/v2106.17)
 - Dependencies
 - [Git](https://git-scm.com/downloads)
-- [DotFetch](https://github.com/evilprince2009/DotFetch) or [DotFetch.NET](https://github.com/evilprince2009/DotFetch.NET)
+- [DotFetch](https://github.com/evilprince2009/DotFetch) or [DotFetch.NET](https://github.com/evilprince2009/DotFetch.NET) (Recommended: DotFetch)
 
 ## How to's
 
@@ -47,7 +47,7 @@ Make a folder named `Workspace` in your `D:\` Drive.
 
 ### Install DotFetch or DotFetch.NET
 
-Head over to [DotFetch](https://github.com/evilprince2009/DotFetch) or [DotFetch.NET](https://github.com/evilprince2009/DotFetch.NET) repo and go through the README , and follow the instructions to install it properly on your system.
+Head over to [DotFetch](https://github.com/evilprince2009/DotFetch) or [DotFetch.NET](https://github.com/evilprince2009/DotFetch.NET) repo and go through the README , and follow the instructions to install it properly on your system. I recommend using [DotFetch](https://github.com/evilprince2009/DotFetch).
 
 ### Update PowerShell profile
 
