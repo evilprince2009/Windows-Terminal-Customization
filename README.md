@@ -21,7 +21,7 @@ Now, let's start customizing the terminal. First things first , let's go through
 - [Cascadia Code](https://github.com/microsoft/cascadia-code/releases/tag/v2106.17)
 - Dependencies
 - [Git](https://git-scm.com/downloads)
-- [DotFetch](https://github.com/evilprince2009/DotFetch)
+- [DotFetch](https://github.com/evilprince2009/DotFetch) or [DotFetch.NET](https://github.com/evilprince2009/DotFetch.NET)
 
 ## How to's
 
@@ -45,9 +45,9 @@ Download the [Git for Windows](https://gitforwindows.org/downloads) and install 
 
 Make a folder named `Workspace` in your `D:\` Drive.
 
-### Install DotFetch
+### Install DotFetch or DotFetch.NET
 
-Head over to [DotFetch](https://github.com/evilprince2009/DotFetch) repo and go through the README , and follow the instructions to install it properly on your system.
+Head over to [DotFetch](https://github.com/evilprince2009/DotFetch) or [DotFetch.NET](https://github.com/evilprince2009/DotFetch.NET) repo and go through the README , and follow the instructions to install it properly on your system.
 
 ### Update PowerShell profile
 
@@ -72,7 +72,7 @@ dotfetch
 - To see the list of available themes , run `Get-PoshThemes` on terminal.
 - To customize color scheme of your favourite theme , navigate to `C:\Program Files\WindowsPowerShell\Modules\oh-my-posh\themes` , open the theme file you want to customize in your preferred code editor and modify the color scheme. Make sure to save the changes you made.
 
-### Tip:
+### Tip
 
 Those who wants to customize the default color scheme of posh themes , might be interested to have look at how it is done. I've done one & here it is. Check out the modified `iterm2.omp.json` file _**[here](https://github.com/evilprince2009/Windows-Terminal-Customization/blob/main/iterm2.omp.json)**_.
 
