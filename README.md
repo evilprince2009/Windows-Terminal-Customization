@@ -51,7 +51,7 @@ Head over to [DotFetch](https://github.com/evilprince2009/DotFetch) or [DotFetch
 
 ### Update PowerShell profile
 
-Open PowerShell & type `notepad $profile` and hit Enter. This will open a text file in Notepad. Put below lines inside the file and save.
+Open PowerShell & type `notepad $profile` if you are using Windows PowerShell and `notepad $Profile` if you are using PowerShell Core & hit Enter. This will open a text file in Notepad. Put below lines inside the file and save.
 
 ```
 Import-Module posh-git
