@@ -31,7 +31,7 @@ Definitely if you haven't installed Windows Terminal yet, install it from Micros
 
 ### Install Cascadia Code
 
-Download the [Cascadia Code](https://github.com/microsoft/cascadia-code/releases/tag/v2106.17) font latest version and install it on your computer. This should be very straight forward. Using other fonts might create gibberish on the terminal and break the design.
+Download the [CascadiaCode](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/CascadiaCode.zip) font latest version and install it on your computer. This should be very straight forward. Using other fonts might create gibberish on the terminal and break the design , probably you won't get all those nice glyphs.
 
 ### Install Dependencies
 
