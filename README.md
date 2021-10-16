@@ -90,7 +90,9 @@ DotFetch.NET
 
 Those who wants to customize the default color scheme of posh themes , might be interested to have look at how it is done. I've modified two of them & here it is.
 
-- Check out the modified `iterm2.omp.json` file _**[here](https://github.com/evilprince2009/Windows-Terminal-Customization/blob/main/modified_posh_themes/iterm2.omp.json)**_.
+- Check out modified _iterm2_ theme (`iterm2.omp.json`) file _**[here](https://github.com/evilprince2009/Windows-Terminal-Customization/blob/main/modified_posh_themes/iterm2.omp.json)**_.
+
+- Check out modified _powerlevel10k-rainbow_ theme (`powerlevel10k_rainbow.omp.json`) file **[here](https://github.com/evilprince2009/Windows-Terminal-Customization/blob/main/modified_posh_themes/powerlevel10k_rainbow.omp.json)**.
 
 ### Now it's showtime
 
