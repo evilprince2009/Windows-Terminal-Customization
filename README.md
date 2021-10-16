@@ -33,7 +33,7 @@ Now, let's start customizing the terminal. First things first , let's go through
 
 Definitely if you haven't installed Windows Terminal yet, install it from Microsoft Store. Thats the first thing you need to do.
 
-### Install Cascadia Code
+### Install CascadiaCode
 
 Download the [CascadiaCode](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/CascadiaCode.zip) font latest version and install it on your computer. This should be very straight forward. Using other fonts might create gibberish on the terminal and break the design , probably you won't get all those nice glyphs.
 
