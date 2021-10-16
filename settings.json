@@ -1,12 +1,6 @@
 {
   "$schema": "https://aka.ms/terminal-profiles-schema",
-  "copyFormatting": "none",
-  "copyOnSelect": true,
-  "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
-  "focusFollowMouse": false,
-  "initialCols": 92,
-  "initialRows": 23,
-  "keybindings": [
+  "actions": [
     {
       "command": {
         "action": "copy",
@@ -15,20 +9,16 @@
       "keys": "ctrl+c"
     },
     {
-      "command": {
-        "action": "cut",
-        "singleLine": false
-      },
+      "command": "unbound",
       "keys": "ctrl+x"
+    },
+    {
+      "command": "find",
+      "keys": "ctrl+f"
     },
     {
       "command": "paste",
       "keys": "ctrl+v"
-    },
-    // Press Ctrl+Shift+F to open the search box
-    {
-      "command": "find",
-      "keys": "ctrl+f"
     },
     {
       "command": {
@@ -39,6 +29,12 @@
       "keys": "alt+d"
     }
   ],
+  "copyFormatting": "none",
+  "copyOnSelect": true,
+  "defaultProfile": "{68684b7e-e356-4702-9f5f-255595336820}",
+  "focusFollowMouse": false,
+  "initialCols": 92,
+  "initialRows": 23,
   "launchMode": "default",
   "profiles": {
     "defaults": {
@@ -47,10 +43,12 @@
       "backgroundImageOpacity": 0.029999999999999999,
       "backgroundImageStretchMode": "fill",
       "colorScheme": "Blue Matrix",
-      "cursorColor": "#F70361",
+      "cursorColor": "#E9045C",
       "cursorShape": "bar",
-      "fontFace": "Cascadia Code PL",
-      "fontSize": 16,
+      "font": {
+        "face": "CaskaydiaCove NF",
+        "size": 16
+      },
       "name": "Ibne Nahian",
       "scrollbarState": "visible",
       "selectionBackground": "#E611FD",
@@ -62,7 +60,6 @@
     "list": [
       {
         "acrylicOpacity": 0.0,
-        // Change this to use your favorite background image
         "backgroundImage": "desktopWallpaper",
         "backgroundImageOpacity": 0.070000000000000007,
         "backgroundImageStretchMode": "fill",
@@ -75,7 +72,34 @@
         "tabTitle": "Windows PowerShell"
       },
       {
-        // Change this to use your favorite background image
+        "acrylicOpacity": 0.0,
+        "backgroundImage": "desktopWallpaper",
+        "backgroundImageOpacity": 0.070000000000000007,
+        "backgroundImageStretchMode": "fill",
+        "colorScheme": "Blue Matrix",
+        "commandline": "D:\\PowerShell\\7\\pwsh.exe -NoLogo -NoExit",
+        "experimental.retroTerminalEffect": true,
+        "guid": "{68684b7e-e356-4702-9f5f-255595336820}",
+        "hidden": false,
+        "icon": "D:\\PowerShell\\7\\assets\\Powershell_av_colors.ico",
+        "name": "PowerShell Core",
+        "tabTitle": "PowerShell Core"
+      },
+      {
+        "acrylicOpacity": 0.0,
+        "backgroundImage": "desktopWallpaper",
+        "backgroundImageOpacity": 0.070000000000000007,
+        "backgroundImageStretchMode": "fill",
+        "colorScheme": "Blue Matrix",
+        "commandline": "C:\\Program Files\\Git\\bin\\bash.exe -l -i",
+        "experimental.retroTerminalEffect": true,
+        "guid": "{6e0d99c9-e28d-4b74-bfe3-bae2f624e943}",
+        "icon": "C:\\Program Files\\Git\\debian.ico",
+        "name": "Git Bash",
+        "startingDirectory": "D:\\Bash Environment",
+        "tabTitle": "Bash"
+      },
+      {
         "backgroundImage": "D:\\Terminal Backgrounds\\powershell-bg.jpg",
         "commandline": "cmd.exe",
         "experimental.retroTerminalEffect": true,
@@ -88,11 +112,11 @@
         "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
         "hidden": true,
         "name": "Azure Cloud Shell",
-        "source": "Windows.Terminal.Azure"
+        "source": "Windows.Terminal.Azure",
+        "tabTitle": "Azure Cloud Shell"
       }
     ]
   },
-  // Custom color schemes
   "schemes": [
     {
       "background": "#011627",
@@ -162,6 +186,29 @@
       "selectionBackground": "#FFFFFF",
       "white": "#CCCCCC",
       "yellow": "#C19C00"
+    },
+    {
+      "background": "#011627",
+      "black": "#011627",
+      "blue": "#82AAFF",
+      "brightBlack": "#969696",
+      "brightBlue": "#82AAFF",
+      "brightCyan": "#7FDBCA",
+      "brightGreen": "#22DA6E",
+      "brightPurple": "#C792EA",
+      "brightRed": "#EF5350",
+      "brightWhite": "#FFFFFF",
+      "brightYellow": "#FFEB95",
+      "cursorColor": "#80A4C2",
+      "cyan": "#21C7A8",
+      "foreground": "#D6DEEB",
+      "green": "#22DA6E",
+      "name": "Night Owl",
+      "purple": "#C792EA",
+      "red": "#EF5350",
+      "selectionBackground": "#1D3B53",
+      "white": "#FFFFFF",
+      "yellow": "#ADDB67"
     },
     {
       "background": "#282C34",
@@ -329,5 +376,3 @@
   "snapToGridOnResize": false,
   "theme": "dark"
 }
-
-// Modified by: Ibne Nahian (evilprince2009)
