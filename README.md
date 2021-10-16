@@ -22,7 +22,7 @@ Now, let's start customizing the terminal. First things first , let's go through
 ### Prerequisites
 
 - [Windows Terminal](https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701#activetab=pivot:overviewtab)
-- [Cascadia Code](https://github.com/microsoft/cascadia-code/releases/tag/v2106.17)
+- [CascadiaCode](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/CascadiaCode.zip)
 - Dependencies
 - [Git](https://git-scm.com/downloads)
 - [DotFetch](https://github.com/evilprince2009/DotFetch) or [DotFetch.NET](https://github.com/evilprince2009/DotFetch.NET) (Recommended: DotFetch)
