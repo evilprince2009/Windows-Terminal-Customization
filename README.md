@@ -7,7 +7,7 @@ Fisrt of all, let's have look at my Windows Terminal.
 
 ### Fullscreen Maximized
 
-![terminal](<https://github.com/evilprince2009/Windows-Terminal-Customization/blob/main/images/Screenshot%20(55).png>)
+![terminal](https://github.com/evilprince2009/Windows-Terminal-Customization/blob/main/images/win-ps-full.png)
 
 ### Resized View
 
