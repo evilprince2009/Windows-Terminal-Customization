@@ -3,7 +3,7 @@
   "final_space": true,
   "console_title": true,
   "console_title_style": "template",
-  "console_title_template": "{{ .Shell }} in {{ .Folder }}",
+  "console_title_template": "{{ .Host }} in {{ .Folder }}",
   "blocks": [
     {
       "type": "prompt",
@@ -14,11 +14,10 @@
           "type": "os",
           "style": "powerline",
           "powerline_symbol": "\uE0B0",
-          "foreground": "#fff",
+          "foreground": "#86ff15",
           "background": "#F70361",
           "properties": {
             "prefix": " ",
-            "windows": "\uF179",
             "postfix": ""
           }
         },
