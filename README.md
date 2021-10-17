@@ -60,8 +60,9 @@ Open PowerShell & type `notepad $profile` if you are using Windows PowerShell or
 - If you are using DotFetch:
 
 ```
-Import-Module posh-git
-Import-Module oh-my-posh
+Import-Module -Name posh-git
+Import-Module -Name Terminal-Icons
+Import-Module -Name oh-my-posh
 Set-PoshPrompt -Theme Iterm2
 Write-Host("                        =========> Wellcome || Windows PowerShell <=========")
 dotfetch
@@ -72,8 +73,9 @@ _**OR**_
 - If you are using DotFetch.NET:
 
 ```
-Import-Module posh-git
-Import-Module oh-my-posh
+Import-Module -Name posh-git
+Import-Module -Name Terminal-Icons
+Import-Module -Name oh-my-posh
 Set-PoshPrompt -Theme Iterm2
 Write-Host("                        =========> Wellcome || Windows PowerShell <=========")
 DotFetch.NET
