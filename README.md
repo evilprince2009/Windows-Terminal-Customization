@@ -39,7 +39,15 @@ Download the [CascadiaCode](https://github.com/ryanoasis/nerd-fonts/releases/dow
 
 ### Install Dependencies
 
-If you want to have colorful themes in your terminal, you need to install some dependencies. Install `posh-git` from _[here](https://www.powershellgallery.com/packages/posh-git/)_ , `oh-my-posh` from _[here](https://www.powershellgallery.com/packages/oh-my-posh/)_ and `Terminal-Icons` from _[here](https://www.powershellgallery.com/packages/Terminal-Icons/)_. You are allowed to use any version of these dependencies. But using the latest version is a recommended.
+If you want to have colorful themes in your terminal, you need to install some dependencies. Install these dependencies listed below.
+
+- `posh-git` from _[here](https://www.powershellgallery.com/packages/posh-git/)_
+- `oh-my-posh` from _[here](https://www.powershellgallery.com/packages/oh-my-posh/)_
+- `Terminal-Icons` from _[here](https://www.powershellgallery.com/packages/Terminal-Icons/)_ if you are using PowerShell Core
+- `PSReadLine` from _[here](https://www.powershellgallery.com/packages/PSReadLine/2.2.0-beta1)_
+- `z` from \_[here](https://www.powershellgallery.com/packages/z/1.1.13) if you are using PowerShell Core
+
+Using the latest version of dependencies is strongly recommended.
 
 ### Install Git
 
