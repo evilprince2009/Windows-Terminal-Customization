@@ -92,6 +92,20 @@
           }
         },
         {
+          "type": "dotnet",
+          "style": "powerline",
+          "powerline_symbol": "",
+          "invert_powerline": false,
+          "foreground": "#f6e8ff",
+          "background": "#024478",
+          "leading_diamond": "",
+          "trailing_diamond": "",
+          "properties": {
+            "display_version": true,
+            "prefix": "  "
+          }
+        },
+        {
           "type": "python",
           "style": "powerline",
           "powerline_symbol": "",

@@ -67,15 +67,18 @@
         {
           "type": "exit",
           "style": "powerline",
-          "powerline_symbol": "\uE0B0",
-          "foreground": "#fff",
-          "background": "#023660",
+          "powerline_symbol": "",
+          "invert_powerline": false,
+          "foreground": "#ffffff",
+          "background": "#2e9599",
+          "leading_diamond": "",
+          "trailing_diamond": "",
           "properties": {
-            "display_exit_code": false,
             "always_enabled": true,
             "color_background": true,
-            "error_color": "#74001b",
-            "prefix": " \ufc8d"
+            "display_exit_code": false,
+            "error_color": "#c70230",
+            "prefix": " "
           }
         }
       ]
@@ -94,10 +97,24 @@
           "properties": {
             "battery_icon": "\f583",
             "color_background": true,
-            "charged_color": "#21ff04",
+            "charged_color": "#26ff09",
             "charging_color": "#f17501",
             "discharging_color": "#01121F",
             "postfix": "\uF295 \uf583 "
+          }
+        },
+        {
+          "type": "dotnet",
+          "style": "powerline",
+          "powerline_symbol": "",
+          "invert_powerline": false,
+          "foreground": "#f6e8ff",
+          "background": "#024478",
+          "leading_diamond": "",
+          "trailing_diamond": "",
+          "properties": {
+            "display_version": true,
+            "prefix": "  "
           }
         },
         {
