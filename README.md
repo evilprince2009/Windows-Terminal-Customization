@@ -45,7 +45,7 @@ If you want to have colorful themes in your terminal, you need to install some d
 - `oh-my-posh` from _[here](https://www.powershellgallery.com/packages/oh-my-posh/)_
 - `Terminal-Icons` from _[here](https://www.powershellgallery.com/packages/Terminal-Icons/)_ if you are using PowerShell Core
 - `PSReadLine` from _[here](https://www.powershellgallery.com/packages/PSReadLine/2.2.0-beta1)_
-- `z` from \_[here](https://www.powershellgallery.com/packages/z/1.1.13) if you are using PowerShell Core
+- `z` from _[here](https://www.powershellgallery.com/packages/z/1.1.13)_ if you are using PowerShell Core
 
 Using the latest version of dependencies is strongly recommended.
 
