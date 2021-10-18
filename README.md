@@ -21,6 +21,7 @@ Now, let's start customizing the terminal. First things first , let's go through
 
 ### Prerequisites
 
+- Windows PowerShell or PowerShell Core
 - [Windows Terminal](https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701#activetab=pivot:overviewtab)
 - [CascadiaCode](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/CascadiaCode.zip)
 - Dependencies
@@ -28,6 +29,10 @@ Now, let's start customizing the terminal. First things first , let's go through
 - [DotFetch](https://github.com/evilprince2009/DotFetch) or [DotFetch.NET](https://github.com/evilprince2009/DotFetch.NET) (Recommended: DotFetch)
 
 ## How to's
+
+### Windows PowerShell or PowerShell Core
+
+Windows PowerShell legacy version comes built in with Windows. You can download the latest version of PowerShell Core from _[here](https://github.com/PowerShell/PowerShell/releases)_. I strongly recommend using PowerShell Core.
 
 ### Install Windows Terminal
 
@@ -46,7 +51,7 @@ If you want to have colorful themes in your terminal, you need to install some d
 
 - `PSReadLine` from _[here](https://www.powershellgallery.com/packages/PSReadLine/2.2.0-beta1)_
 
-I recommend installing two dependencies listed below if you are using PowerShell Core as Windows PowerShell has some compatiblity issue with these modules.
+I recommend installing two dependencies listed below if you are using PowerShell Core as Windows PowerShell (legacy version) has some compatiblity issue with these modules.
 
 - `Terminal-Icons` from _[here](https://www.powershellgallery.com/packages/Terminal-Icons/)_
 - `z` from _[here](https://www.powershellgallery.com/packages/z/1.1.13)_
