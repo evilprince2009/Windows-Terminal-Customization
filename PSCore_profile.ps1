@@ -15,9 +15,6 @@ Import-Module -Name Terminal-Icons
 Import-Module -Name oh-my-posh
 Set-PoshPrompt -Theme iterm2
 
-
-
-
 Register-ArgumentCompleter -Native -CommandName winget -ScriptBlock {
     param($wordToComplete, $commandAst, $cursorPosition)
         [Console]::InputEncoding = [Console]::OutputEncoding = $OutputEncoding = [System.Text.Utf8Encoding]::new()
@@ -598,6 +595,15 @@ Set-PSReadLineKeyHandler -Key Ctrl+Shift+b `
                          -ScriptBlock {
     [Microsoft.PowerShell.PSConsoleReadLine]::RevertLine()
     [Microsoft.PowerShell.PSConsoleReadLine]::Insert("dotnet build")
+    [Microsoft.PowerShell.PSConsoleReadLine]::AcceptLine()
+}
+
+Set-PSReadLineKeyHandler -Key Ctrl+f5 `
+                         -BriefDescription BuildCurrentDirectory `
+                         -LongDescription "Build the current directory" `
+                         -ScriptBlock {
+    [Microsoft.PowerShell.PSConsoleReadLine]::RevertLine()
+    [Microsoft.PowerShell.PSConsoleReadLine]::Insert("dotnet run")
     [Microsoft.PowerShell.PSConsoleReadLine]::AcceptLine()
 }
 
