@@ -96,6 +96,8 @@ Write-Host("                        =========> Wellcome || Windows PowerShell <=
 DotFetch.NET
 ```
 
+- If you are using PowerShell Core , after opening profile by `notepad $profile` and Enter , open this **[PSCore_profile.ps1](https://github.com/evilprince2009/Windows-Terminal-Customization/blob/main/PSCore_profile.ps1)** file , copy everything and paste in your PowerShell profile. This this the configuration I recommend.
+
 ### Write your custom settings
 
 - Hit `Windows+R` to open the run command.
