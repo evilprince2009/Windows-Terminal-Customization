@@ -96,7 +96,11 @@ Write-Host("                        =========> Wellcome || Windows PowerShell <=
 DotFetch.NET
 ```
 
-- If you are using PowerShell Core , after opening profile by `notepad $profile` and Enter , open this **[PSCore_profile.ps1](https://github.com/evilprince2009/Windows-Terminal-Customization/blob/main/PSCore_profile.ps1)** file , copy everything and paste in your PowerShell profile. This this the configuration I recommend.
+- If you are using PowerShell Core , after opening profile by `notepad $profile` and Enter , open this **[PSCore_profile.ps1](https://github.com/evilprince2009/Windows-Terminal-Customization/blob/main/PSCore_profile.ps1)** file , copy everything and paste in your PowerShell profile. This this the configuration I recommend. You will get intellisense , auto-completion , nice keybindings like `Ctrl+Shift+B` for running commands like `dotnet build` from terminal and much more if you go with this option. Below animated gif is a sneak peak actually what you are going to have.
+
+![terminal-intellisense](https://github.com/evilprince2009/Windows-Terminal-Customization/blob/main/images/terminal-intellisense.gif)
+
+Auto-Completion , Intellisense in Terminal.
 
 ### Write your custom settings
 
