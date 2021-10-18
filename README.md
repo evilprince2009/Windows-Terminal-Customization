@@ -15,6 +15,8 @@ Fisrt of all, let's have look at my Windows Terminal.
 
 ### PowerShell Core Terminal Icons
 
+![custom icons](https://github.com/evilprince2009/Windows-Terminal-Customization/blob/main/images/ps-core-custom-icons.png)
+
 Now, let's start customizing the terminal. First things first , let's go through the prerequisites.
 
 ### Prerequisites
