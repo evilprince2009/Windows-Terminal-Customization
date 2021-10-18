@@ -36,7 +36,7 @@ Windows PowerShell legacy version comes built in with Windows. You can download 
 
 ### Install Windows Terminal
 
-Definitely if you haven't installed Windows Terminal yet, install it from Microsoft Store. Thats the first thing you need to do.
+Definitely if you haven't installed Windows Terminal yet, install it from Microsoft Store. Thats the must thing you need to do.
 
 ### Install CascadiaCode
 
