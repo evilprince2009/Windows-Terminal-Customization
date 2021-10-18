@@ -125,6 +125,6 @@ Those who wants to customize the default color scheme of posh themes , might be 
 
 Once you are done , re-launch your Windows Terminal and you should be good to go.
 
-### Note: As I maintain and update this repository on a regular basis , scripts and dependencies gets changed frequently. You are requested to follow the instructions and use confugurations from main repository. If you follow any frok of this repo which has been modified by someone else and you break something , I'm not responsible.
+### Note: As I maintain and update this repository on a regular basis , scripts and dependencies gets changed frequently. You are requested to follow the instructions and use confugurations from main repository. If you follow any fork of this repo which has been modified by someone else and you break something , I'm not responsible.
 
 ### [Ibne Nahian](www.facebook.com/evilprince2009)
