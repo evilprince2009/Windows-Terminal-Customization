@@ -9,13 +9,11 @@ Fisrt of all, let's have look at my Windows Terminal.
 
 ![terminal](https://github.com/evilprince2009/Windows-Terminal-Customization/blob/main/images/win-ps-full.png)
 
-### Windows PowerShell Resized View
-
-![terminal](https://github.com/evilprince2009/Windows-Terminal-Customization/blob/main/images/win-ps-resized.png)
-
 ### PowerShell Core
 
 ![terminal](https://github.com/evilprince2009/Windows-Terminal-Customization/blob/main/images/ps-core.png)
+
+### PowerShell Core Terminal Icons
 
 Now, let's start customizing the terminal. First things first , let's go through the prerequisites.
 
