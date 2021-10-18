@@ -72,9 +72,9 @@ Head over to [DotFetch](https://github.com/evilprince2009/DotFetch) or [DotFetch
 
 ### Update PowerShell profile
 
-Open PowerShell & type `notepad $profile` if you are using Windows PowerShell or `notepad $Profile` if you are using PowerShell Core & hit Enter. This will open a text file in Notepad. Put below lines inside the file and save.
+Open PowerShell & type `notepad $profile` hit Enter. This will open a text file in Notepad. Put below lines inside the file and save.
 
-- If you are using DotFetch:
+- If you are using DotFetch & Windows PowerShell
 
 ```
 Import-Module -Name posh-git
@@ -85,9 +85,7 @@ Write-Host("                        =========> Wellcome || Windows PowerShell <=
 dotfetch
 ```
 
-_**OR**_
-
-- If you are using DotFetch.NET:
+- If you are using DotFetch.NET & Windows PowerShell
 
 ```
 Import-Module -Name posh-git
