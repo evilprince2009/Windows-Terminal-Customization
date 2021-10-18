@@ -77,7 +77,6 @@ Open PowerShell & type `notepad $profile` hit Enter. This will open a text file 
 
 ```
 Import-Module -Name posh-git
-Import-Module -Name Terminal-Icons
 Import-Module -Name oh-my-posh
 Set-PoshPrompt -Theme Iterm2
 Write-Host("                        =========> Wellcome || Windows PowerShell <=========")
@@ -88,7 +87,6 @@ dotfetch
 
 ```
 Import-Module -Name posh-git
-Import-Module -Name Terminal-Icons
 Import-Module -Name oh-my-posh
 Set-PoshPrompt -Theme Iterm2
 Write-Host("                        =========> Wellcome || Windows PowerShell <=========")
