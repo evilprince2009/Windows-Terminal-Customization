@@ -12,8 +12,12 @@ if ($host.Name -eq 'ConsoleHost')
 Import-Module -Name posh-git
 Import-Module -Name z
 Import-Module -Name Terminal-Icons
-Import-Module -Name oh-my-posh
-Set-PoshPrompt -Theme iterm2
+<#
+    # Enable these Import statements if you want to use omp v2
+    # Import-Module -Name oh-my-posh
+    # Set-PoshPrompt -Theme iterm2
+#>
+oh-my-posh --init --shell pwsh --config ~\AppData\Local\Programs\oh-my-posh\themes\iterm2.omp.json | Invoke-Expression
 
 Register-ArgumentCompleter -Native -CommandName winget -ScriptBlock {
     param($wordToComplete, $commandAst, $cursorPosition)
