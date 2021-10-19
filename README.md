@@ -55,7 +55,7 @@ These are the required dependencies for Windows PowerShell (legacy version).
 
 If you are using PowerShell Core , install below dependencies.
 
-- If you don't _Winget_ or _Chocolatey_ installed on your system , get them. Now run `winget install JanDeDobbeleer.OhMyPosh` or `choco install oh-my-posh` from terminal and wait for the OMP V3 installation to complete.
+- If you don't have _Winget_ or _Chocolatey_ installed on your system , get them. Now run `winget install JanDeDobbeleer.OhMyPosh` or `choco install oh-my-posh` from terminal and wait for the OMP V3 installation to complete.
 
 - `PSReadLine` from _[here](https://www.powershellgallery.com/packages/PSReadLine/2.2.0-beta1)_
 - `Terminal-Icons` from _[here](https://www.powershellgallery.com/packages/Terminal-Icons/)_
