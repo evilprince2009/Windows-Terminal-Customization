@@ -5,6 +5,8 @@
 Very often I'm asked how I customized my Windows Terminal. This repo will walk you through step-by-step how to make your terminal look like the one I use.
 Fisrt of all, let's have look at my Windows Terminal.
 
+### Desclaimer: Windows Powershell (legacy version) support will be dropped soon. It's better to go with PowerShell Core.
+
 ### Windows PowerShell Fullscreen Maximized
 
 ![terminal](https://github.com/evilprince2009/Windows-Terminal-Customization/blob/main/images/win-ps-full.png)
@@ -46,10 +48,14 @@ Download the [CascadiaCode](https://github.com/ryanoasis/nerd-fonts/releases/dow
 
 If you want to have colorful themes in your terminal, you need to install some dependencies. Install these dependencies listed below.
 
+These are the required dependencies for Windows PowerShell (legacy version).
+
 - `posh-git` from _[here](https://www.powershellgallery.com/packages/posh-git/)_
 - `oh-my-posh` from _[here](https://www.powershellgallery.com/packages/oh-my-posh/)_
 
-I recommend installing these dependencies listed below if you are using PowerShell Core as Windows PowerShell (legacy version) has some compatiblity issue with these modules.
+If you are using PowerShell Core , install below dependencies.
+
+- If you don't _Winget_ or _Chocolatey_ installed on your system , get them. Now run `winget install JanDeDobbeleer.OhMyPosh` or `choco install oh-my-posh` from terminal and wait for the OMP V3 installation to complete.
 
 - `PSReadLine` from _[here](https://www.powershellgallery.com/packages/PSReadLine/2.2.0-beta1)_
 - `Terminal-Icons` from _[here](https://www.powershellgallery.com/packages/Terminal-Icons/)_
