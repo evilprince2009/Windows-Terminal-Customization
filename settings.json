@@ -70,6 +70,7 @@
           {
               "name": "PowerShell Core",
               "tabTitle": "PowerShell Core",
+              // Use you favourite background image path here
               "backgroundImage": "G:\\Gifs\\ghost.gif",
               "backgroundImageOpacity": 0.070000000000000007,
               "backgroundImageStretchMode": "fill",
@@ -83,6 +84,7 @@
           {
               "name": "Windows PowerShell",
               "tabTitle": "Windows PowerShell",
+              // Use you favourite background image path here
               "backgroundImage": "G:\\Gifs\\ghost.gif",
               "backgroundImageOpacity": 0.070000000000000007,
               "backgroundImageStretchMode": "fill",
@@ -95,6 +97,7 @@
           {
               "name": "Command Prompt",
               "tabTitle": "Command Prompt",
+              // Use you favourite background image path here
               "backgroundImage": "G:\\Gifs\\ghost.gif",
               "commandline": "cmd.exe",
               "experimental.retroTerminalEffect": true,
