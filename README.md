@@ -103,7 +103,8 @@ DotFetch.NET
 
 ![terminal-intellisense](https://github.com/evilprince2009/Windows-Terminal-Customization/blob/main/images/terminal-intellisense.gif)
 
-Auto-Completion , Intellisense in Terminal.
+_Auto-Completion , Intellisense in Terminal._
+
 This kind of Auto-Completion , Intellisense is only implemented in PowerShell Core. I didn't maintain the profile script to make this feature work with Windows PowerShell (legacy version).
 
 ### Write your custom settings
