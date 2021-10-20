@@ -7,17 +7,9 @@ Fisrt of all, let's have look at my Windows Terminal.
 
 ### Desclaimer: Windows Powershell (legacy version) support will be dropped soon. It's better to go with PowerShell Core.
 
-### Windows PowerShell Fullscreen Maximized
+### Let's take look at the final result we are trying to achive
 
-![terminal](https://github.com/evilprince2009/Windows-Terminal-Customization/blob/main/images/win-ps-full.png)
-
-### PowerShell Core
-
-![terminal](https://github.com/evilprince2009/Windows-Terminal-Customization/blob/main/images/ps-core.png)
-
-### PowerShell Core Terminal Icons
-
-![custom icons](https://github.com/evilprince2009/Windows-Terminal-Customization/blob/main/images/ps-core-custom-icons.png)
+![preview](https://github.com/evilprince2009/Windows-Terminal-Customization/blob/main/images/preview.gif)
 
 Now, let's start customizing the terminal. First things first , let's go through the prerequisites.
 
