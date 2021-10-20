@@ -105,7 +105,7 @@ DotFetch.NET
 
 _Auto-Completion , Intellisense in Terminal._
 
-This kind of Auto-Completion , Intellisense is only implemented in PowerShell Core. I didn't maintain the profile script to make this feature work with Windows PowerShell (legacy version).
+This kind of Auto-Completion , Intellisense is only implemented for PowerShell Core. I didn't maintain the profile script to make this feature work with Windows PowerShell since `PSReadLine` module latest version has compatibility issues with Windows PowerShell (legacy version).
 
 ### Write your custom settings
 
