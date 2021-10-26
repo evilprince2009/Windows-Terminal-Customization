@@ -1,6 +1,6 @@
-# PowerShell Core profile
-# Big thanks to Scott Hanselman (shanselman) for this awesome script
-# Tweaked by Ibne Nahian (evilprince2009)
+# PowerShell Core profile script
+# Big thanks to Scott Hanselman (shanselman) for this kick-ass script
+# Tweaked & enhanced by Ibne Nahian (evilprince2009)
 
 using namespace System.Management.Automation
 using namespace System.Management.Automation.Language
@@ -13,7 +13,7 @@ Import-Module -Name posh-git
 Import-Module -Name z
 Import-Module -Name Terminal-Icons
 <#
-    # Enable these Import statements if you want to use omp v2
+    # Enable these Import statements if you want to use omp v2 & disable line 20
     # Import-Module -Name oh-my-posh
     # Set-PoshPrompt -Theme iterm2
 #>
@@ -623,6 +623,6 @@ Set-PSReadLineKeyHandler -Key Ctrl+Shift+t `
 Write-Host("                        =========> Wellcome || PowerShell Core <=========")
 <#
     # Below command requires installing DotFetch properly to execute
-    # DotFetch repo: https://github.com/evilprince2009/DotFetch
+    # DotFetch original repo: https://github.com/evilprince2009/DotFetch
 #>
 dotfetch
