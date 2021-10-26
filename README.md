@@ -71,7 +71,7 @@ Head over to [DotFetch](https://github.com/evilprince2009/DotFetch) or [DotFetch
 
 Open PowerShell & type `notepad $profile` hit Enter. This will open a text file in Notepad. Put below lines inside the file and save.
 
-- If you are using DotFetch & Windows PowerShell
+- If you are using DotFetch
 
 ```
 Import-Module -Name posh-git
@@ -81,7 +81,7 @@ Write-Host("                        =========> Wellcome || Windows PowerShell <=
 dotfetch
 ```
 
-- If you are using DotFetch.NET & Windows PowerShell
+- If you are using DotFetch.NET
 
 ```
 Import-Module -Name posh-git
@@ -108,7 +108,11 @@ This kind of Auto-Completion , Intellisense is only implemented for PowerShell C
 ### Customize themes and color scheme even more
 
 - To see the list of available themes , run `Get-PoshThemes` on terminal.
-- To customize color scheme of your favourite theme , navigate to `C:\Program Files\WindowsPowerShell\Modules\oh-my-posh\themes` , open the theme file you want to customize in your preferred code editor and modify the color scheme. Make sure to save the changes you made.
+- To customize color scheme of your favourite theme , navigate to
+ -`C:\Program Files\WindowsPowerShell\Modules\oh-my-posh\themes` if you are using OMP v2.
+ - `%USERPROFILE%\AppData\Local\Programs\oh-my-posh\themes` if you are using OMP v3.
+
+- Open the theme file you want to customize in your preferred code editor and modify the color scheme. Make sure to save the changes you made.
 
 ### Tip
 
