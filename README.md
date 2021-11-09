@@ -42,16 +42,16 @@ If you want to have colorful themes in your terminal, you need to install some d
 
 These are the required dependencies for Windows PowerShell (legacy version).
 
-- `posh-git` from _[here](https://www.powershellgallery.com/packages/posh-git/)_
-- `oh-my-posh` from _[here](https://www.powershellgallery.com/packages/oh-my-posh/)_
+- Install `posh-git` from _[here](https://www.powershellgallery.com/packages/posh-git/)_
+- Install `oh-my-posh` from _[here](https://www.powershellgallery.com/packages/oh-my-posh/)_
 
 If you are using PowerShell Core , install below dependencies.
 
 - If you don't have _Winget_ or _Chocolatey_ installed on your system , get them. Now run `winget install JanDeDobbeleer.OhMyPosh` or `choco install oh-my-posh` from terminal and wait for the OMP V3 installation to complete.
 
-- `PSReadLine` from _[here](https://www.powershellgallery.com/packages/PSReadLine/2.2.0-beta1)_
-- `Terminal-Icons` from _[here](https://www.powershellgallery.com/packages/Terminal-Icons/)_
-- `z` from _[here](https://www.powershellgallery.com/packages/z/1.1.13)_
+- Install `PSReadLine` from _[here](https://www.powershellgallery.com/packages/PSReadLine/2.2.0-beta1)_
+- Install `Terminal-Icons` from _[here](https://www.powershellgallery.com/packages/Terminal-Icons/)_
+- Install `z` from _[here](https://www.powershellgallery.com/packages/z/1.1.13)_
 
 Using the latest version of dependencies is strongly recommended.
 
