@@ -1,11 +1,11 @@
-## Windows Teminal Customization
+# Windows Teminal Customization
 
-### These tweaks / custimizations techniques are Windows Only
+## These tweaks / custimizations techniques are Windows Only
 
 Very often I'm asked how I customized my Windows Terminal. This repo will walk you through step-by-step how to make your terminal look like the one I use.
 Fisrt of all, let's have look at my Windows Terminal.
 
-### Desclaimer: Windows Powershell (legacy version) support will be dropped soon. It's better to go with PowerShell Core.
+### Desclaimer: Windows Powershell (legacy version) support will be dropped soon. It's better to go with PowerShell Core
 
 ### Let's take look at the final result we are trying to achive
 
@@ -100,6 +100,6 @@ Those who wants to customize the default color scheme of posh themes , might be 
 
 Once you are done , re-launch your Windows Terminal and you should be good to go.
 
-### Note: As I maintain and update this repository on a regular basis , scripts and dependencies gets changed frequently. You are requested to follow the instructions and use confugurations from main repository. If you follow any fork of this repo which has been modified by someone else and you break something , I'm not responsible.
+### Note: As I maintain and update this repository on a regular basis , scripts and dependencies gets changed frequently. You are requested to follow the instructions and use confugurations from main repository. If you follow any fork of this repo which has been modified by someone else and you break something , I'm not responsible
 
 ### [Ibne Nahian](www.facebook.com/evilprince2009)
