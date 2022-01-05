@@ -40,12 +40,7 @@ Download the [CascadiaCode](https://github.com/ryanoasis/nerd-fonts/releases/dow
 
 If you want to have colorful themes in your terminal, you need to install some dependencies. Install these dependencies listed below.
 
-These are the required dependencies for Windows PowerShell (legacy version).
-
-- Install `posh-git` from _[here](https://www.powershellgallery.com/packages/posh-git/)_
-- Install `oh-my-posh` from _[here](https://www.powershellgallery.com/packages/oh-my-posh/)_
-
-If you are using PowerShell Core , install below dependencies.
+Install below dependencies.
 
 - If you don't have _Winget_ or _Chocolatey_ installed on your system , get them. Now run `winget install JanDeDobbeleer.OhMyPosh` or `choco install oh-my-posh` from terminal and wait for the OMP V3 installation to complete.
 
@@ -53,7 +48,7 @@ If you are using PowerShell Core , install below dependencies.
 - Install `Terminal-Icons` from _[here](https://www.powershellgallery.com/packages/Terminal-Icons/)_
 - Install `z` from _[here](https://www.powershellgallery.com/packages/z/1.1.13)_
 
-Using the latest version of dependencies is strongly recommended.
+Using the latest version of dependencies is strongly recommended. With Windows PowerShell (legacy version) Sometimes, you might get some error while installing those modules. In that case, you can install them manually. Those modules are usually located in `C:\Program Files\WindowsPowerShell\Modules`.
 
 ### Install Git
 
@@ -69,35 +64,13 @@ Head over to [DotFetch](https://github.com/evilprince2009/DotFetch) or [DotFetch
 
 ### Update PowerShell profile
 
-Open PowerShell & type `notepad $profile` hit Enter. This will open a text file in Notepad. Put below lines inside the file and save.
-
-- If you are using DotFetch
-
-```
-Import-Module -Name posh-git
-Import-Module -Name oh-my-posh
-Set-PoshPrompt -Theme Iterm2
-Write-Host("                        =========> Wellcome || Windows PowerShell <=========")
-dotfetch
-```
-
-- If you are using DotFetch.NET
-
-```
-Import-Module -Name posh-git
-Import-Module -Name oh-my-posh
-Set-PoshPrompt -Theme Iterm2
-Write-Host("                        =========> Wellcome || Windows PowerShell <=========")
-DotFetch.NET
-```
-
-- If you are using PowerShell Core , after opening profile by `notepad $profile` and Enter , open this **[PSCore_profile.ps1](https://github.com/evilprince2009/Windows-Terminal-Customization/blob/main/PSCore_profile.ps1)** file , copy everything and paste in your PowerShell profile. This this the configuration I recommend. You will get intellisense , auto-completion , nice keybindings like `Ctrl+Shift+B` for running commands like `dotnet build` from terminal and much more if you go with this option. Below animated gif is a sneak peak actually what you are going to have.
+After opening profile by `notepad $profile` on terminal and Enter , open this **[PSCore_profile.ps1](https://github.com/evilprince2009/Windows-Terminal-Customization/blob/main/PSCore_profile.ps1)** file , copy everything and paste in your PowerShell profile. This is the configuration I recommend. You will get intellisense , auto-completion , nice keybindings like `Ctrl+Shift+B` for running commands like `dotnet build` from terminal and much more. Below animated gif is a sneak peak actually what you are going to have.
 
 ![terminal-intellisense](https://github.com/evilprince2009/Windows-Terminal-Customization/blob/main/images/terminal-intellisense.gif)
 
 _Auto-Completion , Intellisense in Terminal._
 
-This kind of Auto-Completion , Intellisense is only implemented for PowerShell Core. I didn't maintain the profile script to make this feature work with Windows PowerShell since `PSReadLine` module latest version has compatibility issues with Windows PowerShell (legacy version).
+This kind of Auto-Completion , Intellisense is can smoothly be implemented for PowerShell Core. This feature also works with Windows PowerShell , but you have to download and configure `PSReadLine` module latest version properly since it has some compatibility issues with Windows PowerShell (legacy version).
 
 ### Write your custom settings
 
@@ -109,6 +82,7 @@ This kind of Auto-Completion , Intellisense is only implemented for PowerShell C
 
 - To see the list of available themes , run `Get-PoshThemes` on terminal.
 - To customize color scheme of your favourite theme , navigate to
+
   - `C:\Program Files\WindowsPowerShell\Modules\oh-my-posh\themes` if you are using OMP v2.
   - `%USERPROFILE%\AppData\Local\Programs\oh-my-posh\themes` if you are using OMP v3.
 
