@@ -620,7 +620,7 @@ Set-PSReadLineKeyHandler -Key Ctrl+Shift+t `
     [Microsoft.PowerShell.PSConsoleReadLine]::AcceptLine()
 }
 
-Write-Host("                        =========> Wellcome || PowerShell Core <=========")
+Write-Output("                        =========> Wellcome || PowerShell Core <=========")
 <#
     # Below command requires installing DotFetch properly to execute
     # DotFetch original repo: https://github.com/evilprince2009/DotFetch
