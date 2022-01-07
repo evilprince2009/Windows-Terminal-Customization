@@ -1,5 +1,3 @@
-// Modified by Ibne Nahian (evilprince2009)
-
 {
     "$schema": "https://aka.ms/terminal-profiles-schema",
     "actions": 
@@ -45,18 +43,12 @@
     {
         "defaults": 
         {
-            "acrylicOpacity": 0.25,
+            "acrylicOpacity": 0.5,
             "backgroundImageAlignment": "center",
-            "backgroundImageOpacity": 0.5,
             "backgroundImageStretchMode": "fill",
             "colorScheme": "Blue Matrix",
             "cursorColor": "#E9045C",
             "cursorShape": "bar",
-            "font": 
-            {
-                "face": "CaskaydiaCove NF",
-                "size": 16
-            },
             "name": "Ibne Nahian",
             "scrollbarState": "visible",
             "selectionBackground": "#E611FD",
@@ -68,58 +60,58 @@
         "list": 
         [
             {
-                "name": "PowerShell Core",
-                "tabTitle": "PowerShell Core",
-                "backgroundImage": "G:\\Gifs\\ghost.gif",
-                "backgroundImageOpacity": 0.070000000000000007,
-                "backgroundImageStretchMode": "fill",
+                "backgroundImageStretchMode": "uniformToFill",
                 "colorScheme": "Blue Matrix",
                 "commandline": "D:\\PowerShell\\7\\pwsh.exe -NoLogo -NoExit",
                 "experimental.retroTerminalEffect": true,
+                "font": 
+                {
+                    "face": "CaskaydiaCove NF",
+                    "size": 14
+                },
                 "guid": "{68684b7e-e356-4702-9f5f-255595336820}",
                 "hidden": false,
-                "icon": "D:\\PowerShell\\7\\assets\\Powershell_av_colors.ico"
+                "icon": "D:\\PowerShell\\7\\assets\\Powershell_av_colors.ico",
+                "name": "PowerShell Core",
+                "tabTitle": "PowerShell Core"
             },
             {
-                "name": "Windows PowerShell",
-                "tabTitle": "Windows PowerShell",
-                "backgroundImage": "G:\\Gifs\\ghost.gif",
+                "backgroundImage": null,
                 "backgroundImageOpacity": 0.070000000000000007,
                 "backgroundImageStretchMode": "fill",
                 "colorScheme": "Blue Matrix",
                 "commandline": "powershell.exe -NoLogo -NoExit",
                 "experimental.retroTerminalEffect": true,
+                "font": 
+                {
+                    "face": "CaskaydiaCove NF",
+                    "size": 14
+                },
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
-                "hidden": false
+                "hidden": false,
+                "name": "Windows PowerShell",
+                "tabTitle": "Windows PowerShell"
             },
             {
-                "name": "Git Bash",
-                "tabTitle": "Bash",
-                "backgroundImage": "G:\\Gifs\\ghost.gif",
-                "backgroundImageOpacity": 0.070000000000000007,
-                "backgroundImageStretchMode": "fill",
-                "colorScheme": "Blue Matrix",
-                "commandline": "C:\\Program Files\\Git\\bin\\bash.exe -l -i",
-                "experimental.retroTerminalEffect": true,
-                "guid": "{6e0d99c9-e28d-4b74-bfe3-bae2f624e943}",
-                "icon": "C:\\Program Files\\Git\\debian.ico",
-                "startingDirectory": "D:\\Bash Environment"
-            },
-            {
-                "name": "Command Prompt",
-                "tabTitle": "Command Prompt",
-                "backgroundImage": "G:\\Gifs\\ghost.gif",
                 "commandline": "cmd.exe",
                 "experimental.retroTerminalEffect": true,
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
-                "hidden": false
+                "hidden": false,
+                "name": "Command Prompt",
+                "tabTitle": "Command Prompt"
             },
             {
-                "name": "Azure Cloud Shell",
-                "tabTitle": "Azure Cloud Shell",
                 "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
                 "hidden": true,
-                "source": "Windows.Terminal.Azure"
+                "name": "Azure Cloud Shell",
+                "source": "Windows.Terminal.Azure",
+                "tabTitle": "Azure Cloud Shell"
+            },
+            {
+                "guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
+                "hidden": false,
+                "name": "Bash",
+                "source": "Git"
             }
         ]
     },
@@ -262,6 +254,29 @@
             "selectionBackground": "#FFFFFF",
             "white": "#FAFAFA",
             "yellow": "#C18301"
+        },
+        {
+            "background": "#282A36",
+            "black": "#282A36",
+            "blue": "#57C7FF",
+            "brightBlack": "#686868",
+            "brightBlue": "#57C7FF",
+            "brightCyan": "#9AEDFE",
+            "brightGreen": "#5AF78E",
+            "brightPurple": "#FF6AC1",
+            "brightRed": "#FF5C57",
+            "brightWhite": "#EFF0EB",
+            "brightYellow": "#F3F99D",
+            "cursorColor": "#97979B",
+            "cyan": "#9AEDFE",
+            "foreground": "#EFF0EB",
+            "green": "#5AF78E",
+            "name": "Snazzy",
+            "purple": "#FF6AC1",
+            "red": "#FF5C57",
+            "selectionBackground": "#3E404A",
+            "white": "#F1F1F0",
+            "yellow": "#F3F99D"
         },
         {
             "background": "#002B36",
